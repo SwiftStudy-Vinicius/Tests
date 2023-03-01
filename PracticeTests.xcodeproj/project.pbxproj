@@ -11,7 +11,21 @@
 		FC2CBD8129AE8F62009C93A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD8029AE8F62009C93A9 /* ContentView.swift */; };
 		FC2CBD8329AE8F64009C93A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2CBD8229AE8F64009C93A9 /* Assets.xcassets */; };
 		FC2CBD8629AE8F64009C93A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2CBD8529AE8F64009C93A9 /* Preview Assets.xcassets */; };
+		FC2CBD8D29AE8FEE009C93A9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD8C29AE8FEE009C93A9 /* ViewModel.swift */; };
+		FC2CBD8F29AE909B009C93A9 /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD8E29AE909B009C93A9 /* Converters.swift */; };
+		FC2CBD9729AE91DB009C93A9 /* ConvertersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD9629AE91DB009C93A9 /* ConvertersTests.swift */; };
+		FC2CBD9D29AE91FB009C93A9 /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2CBD8E29AE909B009C93A9 /* Converters.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2CBD9829AE91DB009C93A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2CBD7329AE8F62009C93A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2CBD7A29AE8F62009C93A9;
+			remoteInfo = PracticeTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FC2CBD7B29AE8F62009C93A9 /* PracticeTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +33,21 @@
 		FC2CBD8029AE8F62009C93A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC2CBD8229AE8F64009C93A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2CBD8529AE8F64009C93A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC2CBD8C29AE8FEE009C93A9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FC2CBD8E29AE909B009C93A9 /* Converters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converters.swift; sourceTree = "<group>"; };
+		FC2CBD9429AE91DB009C93A9 /* ConvertersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2CBD9629AE91DB009C93A9 /* ConvertersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertersTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FC2CBD7829AE8F62009C93A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2CBD9129AE91DB009C93A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				FC2CBD7D29AE8F62009C93A9 /* PracticeTests */,
+				FC2CBD9529AE91DB009C93A9 /* ConvertersTests */,
 				FC2CBD7C29AE8F62009C93A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				FC2CBD7B29AE8F62009C93A9 /* PracticeTests.app */,
+				FC2CBD9429AE91DB009C93A9 /* ConvertersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +82,8 @@
 				FC2CBD8029AE8F62009C93A9 /* ContentView.swift */,
 				FC2CBD8229AE8F64009C93A9 /* Assets.xcassets */,
 				FC2CBD8429AE8F64009C93A9 /* Preview Content */,
+				FC2CBD8C29AE8FEE009C93A9 /* ViewModel.swift */,
+				FC2CBD8E29AE909B009C93A9 /* Converters.swift */,
 			);
 			path = PracticeTests;
 			sourceTree = "<group>";
@@ -65,6 +94,14 @@
 				FC2CBD8529AE8F64009C93A9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC2CBD9529AE91DB009C93A9 /* ConvertersTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2CBD9629AE91DB009C93A9 /* ConvertersTests.swift */,
+			);
+			path = ConvertersTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +124,24 @@
 			productReference = FC2CBD7B29AE8F62009C93A9 /* PracticeTests.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FC2CBD9329AE91DB009C93A9 /* ConvertersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2CBD9A29AE91DB009C93A9 /* Build configuration list for PBXNativeTarget "ConvertersTests" */;
+			buildPhases = (
+				FC2CBD9029AE91DB009C93A9 /* Sources */,
+				FC2CBD9129AE91DB009C93A9 /* Frameworks */,
+				FC2CBD9229AE91DB009C93A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2CBD9929AE91DB009C93A9 /* PBXTargetDependency */,
+			);
+			name = ConvertersTests;
+			productName = ConvertersTests;
+			productReference = FC2CBD9429AE91DB009C93A9 /* ConvertersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +154,10 @@
 				TargetAttributes = {
 					FC2CBD7A29AE8F62009C93A9 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					FC2CBD9329AE91DB009C93A9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FC2CBD7A29AE8F62009C93A9;
 					};
 				};
 			};
@@ -116,6 +175,7 @@
 			projectRoot = "";
 			targets = (
 				FC2CBD7A29AE8F62009C93A9 /* PracticeTests */,
+				FC2CBD9329AE91DB009C93A9 /* ConvertersTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +190,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC2CBD9229AE91DB009C93A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +205,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC2CBD8129AE8F62009C93A9 /* ContentView.swift in Sources */,
+				FC2CBD8D29AE8FEE009C93A9 /* ViewModel.swift in Sources */,
+				FC2CBD8F29AE909B009C93A9 /* Converters.swift in Sources */,
 				FC2CBD7F29AE8F62009C93A9 /* PracticeTestsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC2CBD9029AE91DB009C93A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2CBD9D29AE91FB009C93A9 /* Converters.swift in Sources */,
+				FC2CBD9729AE91DB009C93A9 /* ConvertersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC2CBD9929AE91DB009C93A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2CBD7A29AE8F62009C93A9 /* PracticeTests */;
+			targetProxy = FC2CBD9829AE91DB009C93A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FC2CBD8729AE8F64009C93A9 /* Debug */ = {
@@ -317,6 +403,42 @@
 			};
 			name = Release;
 		};
+		FC2CBD9B29AE91DB009C93A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45XJ23SR49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciusfloresribeiro.ConvertersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeTests.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticeTests";
+			};
+			name = Debug;
+		};
+		FC2CBD9C29AE91DB009C93A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45XJ23SR49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciusfloresribeiro.ConvertersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeTests.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticeTests";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +456,15 @@
 			buildConfigurations = (
 				FC2CBD8A29AE8F64009C93A9 /* Debug */,
 				FC2CBD8B29AE8F64009C93A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2CBD9A29AE91DB009C93A9 /* Build configuration list for PBXNativeTarget "ConvertersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2CBD9B29AE91DB009C93A9 /* Debug */,
+				FC2CBD9C29AE91DB009C93A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
